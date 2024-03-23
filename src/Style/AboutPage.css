@@ -1,0 +1,33 @@
+/* AboutPage.css */
+.fade-appear {
+    opacity: 0;
+  }
+  
+  .fade-appear-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+  }
+  
+  .fade-enter {
+    opacity: 0;
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 1000ms ease-in;
+  }
+  #trail1 {
+    background: url('./Images/abc.jpeg')
+    center/cover no-repeat fixed ;  
+   
+}
+  

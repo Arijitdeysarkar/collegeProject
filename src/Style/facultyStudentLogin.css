@@ -1,0 +1,102 @@
+*{
+  
+  margin: 0px;
+  padding: 0px;
+}
+body, html {
+  height: "100%";
+  width: '100%';
+  margin: 0px;
+  padding: 0px;
+}
+#trail {
+    background: url('./Images/abc.jpeg')
+    center/cover no-repeat fixed ;  
+   
+}
+
+#traill {
+  background: url('./Images/eee.jpg')
+  center/cover no-repeat fixed ;  
+ 
+}
+
+.register {
+    margin-left: 35% ;  
+  }
+.row {
+  /* width: 100%; */
+  display: flex;
+  flex-direction:row;
+  /* justify-content: space-around; */
+}
+.row1 {
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  /* margin-bottom: .5%; */
+  /* margin-top: .3%; */
+  height: 80px;
+  padding-left: 10;
+  margin-left: 10;
+  /* margin:0px */
+
+  align-items: center;
+}
+  .button{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 15px;
+     padding: 10px;
+     width: 150px;
+     border: 0.5px solid blue;
+     border-radius: 5px;
+     background-color: aqua;
+     font-weight: 600;
+     align-self: center;
+  }
+
+  .inputbox {
+    display: block;
+   margin-bottom: 10px;
+    padding: 10px;
+    width: 350px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+  }
+  .logo-image {
+    float: left;
+    width: 60px;
+    border-radius: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
+  
+  }
+  .nav-right {
+    text-align:right;
+  
+ 
+    font-size: large;
+  }
+  .nav-ul {
+    background-color: antiquewhite;
+    padding: 5px;
+    padding-bottom: 10px;
+  }
+
+  .checkinput{
+    display: block;
+  position: relative;
+
+  margin-left: 50px;
+  margin-right: 15px;
+
+  cursor: pointer;
+  font-size: 402px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  }
+  
